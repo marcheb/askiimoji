@@ -4,6 +4,17 @@ module Askiimoji
       send(name) rescue nil
     end
 
+    def self.askiimoji
+      <<-eos
+
+      (a)  /|
+     (_|_)/ <><
+      j|i
+
+                  adapted from Finrod eskimo
+      eos
+    end
+
     def self.mushroom
       <<-eos
 
